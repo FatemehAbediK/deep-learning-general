@@ -7,3 +7,7 @@ the val_accuracy of 1 or 100% is due to we assume our validation set as same as 
 
 #CNN-mnist:
 a comparison of maxpooling & average pooling with and without batch normalization on mnist dataset
+
+
+#CNN-mnist-1:
+seeing the effect of callbacks(early stopping)
