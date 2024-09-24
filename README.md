@@ -19,3 +19,7 @@ checking  a DL model for a number dataset that we make from sklearn.make_classif
 
 #CNN_numbers_best_params:
 have gridsearch cv & randomizedsearch cv for finding the best params in cnn for a number dataset that we make from sklearn.make_classification 
+
+
+#building_the_U_Net_model_itself_in_Keras:
+code the U-NET model in keras!!!!!
