@@ -11,3 +11,9 @@ a comparison of maxpooling & average pooling with and without batch normalizatio
 
 #CNN-mnist-1:
 seeing the effect of callbacks(early stopping)
+
+#ANN-numbers:
+checking  a DL model for a number dataset that we make from sklearn.make_classification 
+
+#CNN_numbers_best_params:
+have gridsearch cv & randomizedsearch cv for finding the best params in cnn for a number dataset that we make from sklearn.make_classification 
