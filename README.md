@@ -16,8 +16,8 @@ This project uses a simple Artificial Neural Network (ANN) built with TensorFlow
 In this study, I built and trained a deep learning model on a synthetic dataset generated using sklearn.make_classification to evaluate its performance on a structured classification problem for tabular data. The main objective was to compare model behavior with and without early stopping. Early stopping was used as a regularization technique to monitor validation loss during training and automatically halt the process when performance stopped improving. This helped prevent overfitting and reduced unnecessary training epochs. By comparing both approaches, I observed how early stopping improves generalization and stabilizes validation performance, while also making training more efficient.
 
 ### 5. CNN_numbers_best_params:
-have gridsearch cv & randomizedsearch cv for finding the best params in cnn for a number dataset that we make from sklearn.make_classification 
+A synthetic binary classification dataset was generated using sklearn.datasets.make_classification with 1,000 samples and 10 features, and split into training and test sets. A simple neural network was built using TensorFlow/Keras and wrapped with SciKeras to enable hyperparameter tuning. GridSearchCV and RandomizedSearchCV were applied to optimize the number of hidden units and optimizer type, identifying 64 hidden units with Adam/RMSprop variants as best-performing configurations. Finally, Stratified K-Fold cross-validation was used to evaluate the model more robustly, achieving an average accuracy of approximately 94.2%, showing stable generalization across folds.Overall, the results show that combining hyperparameter tuning with cross-validation improves model reliability and helps identify optimal configurations for the neural network.
 
 
-### 6. building_the_U_Net_model_itself_in_Keras:
+### 6. Building_the_U_Net_model_itself_in_Keras:
 Implemented a U-Net architecture from scratch in TensorFlow/Keras for image segmentation using an encoder–decoder structure with skip connections, trained with binary cross-entropy loss and Adam optimizer.!!!
