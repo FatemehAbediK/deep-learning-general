@@ -13,8 +13,7 @@ This project uses a simple Artificial Neural Network (ANN) built with TensorFlow
 
 
 ### 4. ANN-numbers:
-checking  a DL model for a number dataset that we make from sklearn.make_classification with and without early stopping 
-
+In this study, I built and trained a deep learning model on a synthetic dataset generated using sklearn.make_classification to evaluate its performance on a structured classification problem for tabular data. The main objective was to compare model behavior with and without early stopping. Early stopping was used as a regularization technique to monitor validation loss during training and automatically halt the process when performance stopped improving. This helped prevent overfitting and reduced unnecessary training epochs. By comparing both approaches, I observed how early stopping improves generalization and stabilizes validation performance, while also making training more efficient.
 
 ### 5. CNN_numbers_best_params:
 have gridsearch cv & randomizedsearch cv for finding the best params in cnn for a number dataset that we make from sklearn.make_classification 
