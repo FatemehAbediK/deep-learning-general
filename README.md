@@ -5,7 +5,7 @@ This project implements a deep learning approach to classify images from the Fas
 
 
 ### 2. CNN-mnist:
-a comparison of maxpooling & average pooling with and without batch normalization on mnist dataset
+To compare of maxpooling & average pooling with and without batch normalization on mnist dataset,This project applies different Convolutional Neural Network (CNN) architectures to the MNIST handwritten digit dataset using TensorFlow/Keras. It includes a simple CNN model, a deeper CNN with MaxPooling and AveragePooling layers, and an improved version using Batch Normalization to enhance training stability and performance. Across experiments, CNNs consistently achieve high accuracy (around 98–99%), showing strong capability in extracting spatial features from images. Deeper models and normalization layers help improve convergence and generalization compared to simpler architectures.
 
 
 ### 3. CNN-mnist-1:
