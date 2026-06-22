@@ -1,8 +1,7 @@
 # deep-learning-general
 
 ### 1. DL-fashion-mnist:
-a comparison between ANN and CNN for fashion mnist data set.
-the val_accuracy of 1 or 100% is due to we assume our validation set as same as the test set(no prior splitting)
+This project implements a deep learning approach to classify images from the Fashion-MNIST dataset and compares the performance of an ANN (Artificial Neural Network) and a CNN (Convolutional Neural Network). The dataset is preprocessed by normalizing pixel values to improve training stability. The ANN uses fully connected Dense layers with Dropout, while the CNN uses convolutional and pooling layers to extract spatial features from images. Both models are trained using the Adam optimizer with sparse categorical cross-entropy loss. The observed validation accuracy reaching ~100% is due to the validation set being taken directly from the test set without a prior separate split, leading to data overlap in evaluation. This highlights the importance of proper dataset splitting for reliable performance measurement.The goal is to compare model performance and understand how architecture choice affects image classification accuracy
 
 
 ### 2. CNN-mnist:
