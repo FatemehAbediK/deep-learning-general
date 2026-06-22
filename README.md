@@ -9,7 +9,7 @@ To compare of maxpooling & average pooling with and without batch normalization 
 
 
 ### 3. CNN-mnist-1:
-seeing the effect of callbacks(early stopping)
+This project uses a simple Artificial Neural Network (ANN) built with TensorFlow/Keras to classify handwritten digits from the MNIST dataset. The model consists of a Flatten layer followed by two fully connected Dense layers with ReLU activation and a Softmax output layer. The data is normalized before training, and early stopping is used to prevent unnecessary training once performance stabilizes. The model achieves strong accuracy on both training and test sets, showing the effect of callbacks(early stopping).
 
 
 ### 4. ANN-numbers:
